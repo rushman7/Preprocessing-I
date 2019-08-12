@@ -148,26 +148,46 @@ h5 {
   width: 80%;
   margin: auto;
 }
-.intro-container img {
-  width: 100%;
-}
 .nav-bar {
   display: flex;
   align-items: center;
   margin: 3rem 0;
 }
-.links {
+.nav-bar .links {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 0 6rem;
+  padding: 0 1rem;
   font-size: 2.4rem;
 }
-.links :hover {
+.nav-bar .links :hover {
   text-decoration: none;
 }
 .nav-bar a {
   text-decoration: none;
   color: black;
   font-weight: 500;
+}
+.intro-container {
+  background: #E8ECEF;
+  padding: 5rem 3rem;
+  border-radius: 1%;
+}
+.intro-container img {
+  width: 100%;
+}
+.intro-container h2 {
+  font-size: 2.5rem;
+  border-bottom: 1px solid grey;
+  padding-bottom: 2rem;
+}
+.intro-container h3 {
+  font-size: 1.5rem;
+}
+.intro-container button {
+  background: #88898B;
+  color: white;
+  padding: 2rem;
+  border-radius: 6%;
+  outline: none;
 }
