@@ -141,8 +141,8 @@ h3,
 h4,
 h5 {
   font-family: 'Bangers', cursive;
-  letter-spacing: 1px;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 .container {
   width: 80%;
@@ -190,4 +190,28 @@ h5 {
   padding: 2rem;
   border-radius: 6%;
   outline: none;
+  font-size: 2rem;
+}
+.intro-container button:hover {
+  background: #19a8a8;
+  transition: 1s;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.skills-container .listen-container {
+  width: 48%;
+}
+.skills-container .listen-container h3 {
+  font-size: 1.7rem;
+}
+.skills-container .stuff-container {
+  width: 48%;
+}
+.skills-container .stuff-container li {
+  list-style-type: none;
+  border: 1px solid #c2c1c1;
+  padding: 1rem;
 }
