@@ -215,3 +215,9 @@ h5 {
   border: 1px solid #c2c1c1;
   padding: 1rem;
 }
+footer {
+  text-align: center;
+  background: #464545;
+  padding: 1.3rem 0;
+  color: white;
+}
